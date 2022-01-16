@@ -1,0 +1,19 @@
+.image {
+	
+}
+
+.card {
+	margin: 10px;
+	width: 400px;	
+	display: flex;
+	flex-grow: 4;
+}
+
+.card-group { 
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+
+}
+
