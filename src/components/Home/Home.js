@@ -4,8 +4,7 @@ import './Home.css';
 
 const Home = ({ onRouteChange }) => {
 	return[
-		<div className="welcome ma4 bg-white-20 w-100 ph3 pv3 pv4-ns ph4-m ph5-l"
-		>
+		<div className="welcome ma4 bg-white-20 w-100 ph3 pv3 pv4-ns ph4-m ph5-l">
 			Welcome to my portfolio. I am a hoop.
 		</div>,
 		<Logo />
