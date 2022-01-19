@@ -14,8 +14,8 @@ import Stack from 'react-bootstrap/Stack';
 
 const Project = ({ onRouteChange }) => {
 	return(	
-		<Container fluid="xxl" className="center">
-			<Row xxl={3}>
+		<Container fluid="med" className="center">
+			<Row med={5}>
 				<Col>
 					<Card className="card bg-transparent center">
 						<Card.Img variant="top" className="image" src={projectone}/>
