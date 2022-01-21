@@ -5,3 +5,6 @@
 	flex-grow: 4;
 }
 
+.center {
+	align-items: center;
+}
