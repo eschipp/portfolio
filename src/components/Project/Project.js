@@ -18,7 +18,7 @@ const Project = ({ onRouteChange }) => {
 			<Row xxl={3}>
 				<Col className="center">
 					<Card className="card bg-transparent center">
-						<Card.Img variant="top" className="image" src={projectone}/>
+			{/*			<Card.Img variant="top" className="image" src={projectone}/>*/}
 							<Card.Body className="cardBody">
 								<Card.Title>Face Recognition</Card.Title>
 								<Card.Text>
@@ -32,7 +32,7 @@ const Project = ({ onRouteChange }) => {
 				</Col>
 				<Col className="center">
 					<Card className="card bg-transparent center">
-						<Card.Img variant="top" className="image" src={projecttwo}/>
+						{/*<Card.Img variant="top" className="image" src={projecttwo}/>*/}
 							<Card.Body className="cardBody">
 								<Card.Title>Robofriends</Card.Title>
 								<Card.Text>
@@ -46,8 +46,8 @@ const Project = ({ onRouteChange }) => {
 				</Col>
 				<Col className="center">
 					<Card className="card bg-transparent center">
-						<Card.Img variant="top" className="image" src={projectthree}/>
-							<Card.Body class="cardBody">
+						{/*<Card.Img variant="top" className="image" src={projectthree}/>*/}
+							<Card.Body className="cardBody">
 								<Card.Title>Background Generator</Card.Title>
 								<Card.Text>
 									Column 3
