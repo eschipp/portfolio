@@ -14,22 +14,15 @@ import Stack from 'react-bootstrap/Stack';
 
 const Project = ({ onRouteChange }) => {
 	return(	
-		<Container fluid="med" className="center">
-			<Row med={5}>
-				<Col>
+		<Container fluid="xxl" className="center">
+			<Row xxl={3}>
+				<Col className="center">
 					<Card className="card bg-transparent center">
-						{/*<Card.Img variant="top" className="image" src={projectone}/>*/}
+						<Card.Img variant="top" className="image" src={projectone}/>
 							<Card.Body className="cardBody">
-								<Card.Title className='facerecognitionTitle'>Face Recognition</Card.Title>
+								<Card.Title>Face Recognition</Card.Title>
 								<Card.Text>
-									Here is a whole lot of text about this project.
-									I learned all of this and all of that. 
-									Here is a whole lot of text about this project.
-									I learned all of this and all of that.
-									Here is a whole lot of text about this project.
-									I learned all of this and all of that.
-									Here is a whole lot of text about this project.
-									I learned all of this and all of that.
+									Column 1
 								</Card.Text>
 							</Card.Body>
 						<Card.Footer>
@@ -37,13 +30,13 @@ const Project = ({ onRouteChange }) => {
 						</Card.Footer>
 					</Card>
 				</Col>
-				<Col>
+				<Col className="center">
 					<Card className="card bg-transparent center">
-						{/*<Card.Img variant="top" className="image" src={projecttwo}/>*/}
+						<Card.Img variant="top" className="image" src={projecttwo}/>
 							<Card.Body className="cardBody">
-								<Card.Title className='robofriendsTitle'>Robofriends</Card.Title>
+								<Card.Title>Robofriends</Card.Title>
 								<Card.Text>
-									Column 2
+								Column 2
 								</Card.Text>
 							</Card.Body>
 						<Card.Footer>
@@ -51,11 +44,11 @@ const Project = ({ onRouteChange }) => {
 						</Card.Footer>
 					</Card>
 				</Col>
-				<Col>
+				<Col className="center">
 					<Card className="card bg-transparent center">
-						{/*<Card.Img variant="top" className="image" src={projecttwo}/>*/}
-							<Card.Body className="cardBody">
-								<Card.Title className='backgroundGeneratorTitle'>Background Generator</Card.Title>
+						<Card.Img variant="top" className="image" src={projectthree}/>
+							<Card.Body class="cardBody">
+								<Card.Title>Background Generator</Card.Title>
 								<Card.Text>
 									Column 3
 								</Card.Text>
