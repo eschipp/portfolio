@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Navigation = ({ onRouteChange }) => {
 	return (
 		<div className ="black-80 tc pv4 avenir">

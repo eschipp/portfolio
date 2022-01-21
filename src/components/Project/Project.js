@@ -18,11 +18,18 @@ const Project = ({ onRouteChange }) => {
 			<Row med={5}>
 				<Col>
 					<Card className="card bg-transparent center">
-						<Card.Img variant="top" className="image" src={projectone}/>
+						{/*<Card.Img variant="top" className="image" src={projectone}/>*/}
 							<Card.Body className="cardBody">
-								<Card.Title>Face Recognition</Card.Title>
+								<Card.Title className='facerecognitionTitle'>Face Recognition</Card.Title>
 								<Card.Text>
-									Column 1
+									Here is a whole lot of text about this project.
+									I learned all of this and all of that. 
+									Here is a whole lot of text about this project.
+									I learned all of this and all of that.
+									Here is a whole lot of text about this project.
+									I learned all of this and all of that.
+									Here is a whole lot of text about this project.
+									I learned all of this and all of that.
 								</Card.Text>
 							</Card.Body>
 						<Card.Footer>
@@ -32,11 +39,11 @@ const Project = ({ onRouteChange }) => {
 				</Col>
 				<Col>
 					<Card className="card bg-transparent center">
-						<Card.Img variant="top" className="image" src={projecttwo}/>
+						{/*<Card.Img variant="top" className="image" src={projecttwo}/>*/}
 							<Card.Body className="cardBody">
-								<Card.Title>Robofriends</Card.Title>
+								<Card.Title className='robofriendsTitle'>Robofriends</Card.Title>
 								<Card.Text>
-								Column 2
+									Column 2
 								</Card.Text>
 							</Card.Body>
 						<Card.Footer>
@@ -46,9 +53,9 @@ const Project = ({ onRouteChange }) => {
 				</Col>
 				<Col>
 					<Card className="card bg-transparent center">
-						<Card.Img variant="top" className="image" src={projectthree}/>
-							<Card.Body class="cardBody">
-								<Card.Title>Background Generator</Card.Title>
+						{/*<Card.Img variant="top" className="image" src={projecttwo}/>*/}
+							<Card.Body className="cardBody">
+								<Card.Title className='backgroundGeneratorTitle'>Background Generator</Card.Title>
 								<Card.Text>
 									Column 3
 								</Card.Text>
@@ -58,49 +65,6 @@ const Project = ({ onRouteChange }) => {
 						</Card.Footer>
 					</Card>
 				</Col>
-				<Col>
-					<Card className="card bg-transparent center">
-						<Card.Img variant="top" className="image" src={projectone}/>
-							<Card.Body class="cardBody">
-								<Card.Title>Face Recognition</Card.Title>
-								<Card.Text>
-									Column 4
-								</Card.Text>
-							</Card.Body>
-						<Card.Footer>
-							<small>View Project</small>
-						</Card.Footer>
-					</Card>
-				</Col>
-				<Col>
-					<Card className="card bg-transparent center">
-						<Card.Img variant="top" className="image" src={projectone}/>
-							<Card.Body class="cardBody">
-								<Card.Title>Face Recognition</Card.Title>
-								<Card.Text>
-									Column 5
-								</Card.Text>
-							</Card.Body>
-						<Card.Footer>
-							<small>View Project</small>
-						</Card.Footer>
-					</Card>
-				</Col>
-				<Col>
-					<Card className="card bg-transparent center">
-						<Card.Img variant="top" className="image" src={projectone}/>
-							<Card.Body class="cardBody">
-								<Card.Title>Face Recognition</Card.Title>
-								<Card.Text>
-									Column 6
-								</Card.Text>
-							</Card.Body>
-						<Card.Footer>
-							<small>View Project</small>
-						</Card.Footer>
-					</Card>
-				</Col>
-
 			</Row>
 		</Container>
 	)
