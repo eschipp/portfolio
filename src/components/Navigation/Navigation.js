@@ -3,8 +3,8 @@ import React from 'react';
 
 const Navigation = ({ onRouteChange }) => {
 	return (
-		<div className ="black-80 tc pv4 avenir">
-			<h1 className="mt2 mb0 baskerville i fw1 f1">Erin Schippers</h1>
+		<div className ="black-80 tc pv4 raleway">
+			<h1 className="mt2 mb0 fw1 f1">Erin Schippers</h1>
   			<h2 className="mt2 mb0 f6 fw4 ttu tracked">Programmer, Musician, Cat Lover</h2>
 		
 			<nav class ="bt bb tc mw7 center mt4">

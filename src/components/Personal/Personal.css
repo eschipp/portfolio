@@ -1,19 +1,51 @@
-.image {
-	
+
+
+
+.scrolling-wrapper {
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x:  auto;
+	max-width: 1200px;
+}
+
+.title {
+	font-family: 'Wire One';
+	font-size: 80px;
+	padding-bottom: 30px;
+}
+
+.scallop-down {
+  height: 100px;
+  width: 100%;
+  background-image: radial-gradient(50px at 50% 0, #fff, #ffdfdf 49%, transparent 51%, transparent);
+  background-size: 49px 100%;
+}
+
+.scallop-up {
+  height:100px;
+  width:100%;
+  background-image: radial-gradient(50px at 50% 100%, #fff, #ffdfdf 49%, transparent 51%, transparent);
+  background-size: 49px 100%;
 }
 
 .card {
-	margin: 10px;
-	width: 400px;	
 	display: flex;
+	flex: 0 0 auto;
+	width: 400px;
 	flex-grow: 4;
+	padding: 40px 5px 10px 5px;
 }
 
-.card-group { 
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: space-evenly;
-
+.bookImage {
+	height: 300px;
+	object-fit: contain;
 }
 
+h1, h4 {
+	font-family: "Raleway";
+}
+
+.projectImage {
+	height: 300px;
+	object-fit: contain;
+}

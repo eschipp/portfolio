@@ -4,7 +4,6 @@ import projectone from './projectone.jpg';
 import projecttwo from './projecttwo.JPG';
 import projectthree from './projectthree.JPG';
 import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -15,7 +14,7 @@ import Stack from 'react-bootstrap/Stack';
 const Project = ({ onRouteChange }) => {
 	return(	
 		<Container fluid="xxl" className="center">
-			<Row xxl={3}>
+			<Row xl={3}>
 				<Col className="center">
 					<Card className="card bg-transparent center">
 			{/*			<Card.Img variant="top" className="image" src={projectone}/>*/}
